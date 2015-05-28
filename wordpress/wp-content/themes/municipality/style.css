@@ -1,0 +1,213 @@
+/*
+Theme Name: Municipality
+Description: This theme was designed for Municipality
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/**
+ *  Reset
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background: #f1f1f1;
+  	letter-spacing: 0.4px;max-width:100%;overflow-x:hidden; 
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+
+a img {
+	border: 0;
+}
+
+
+
+
+/**
+ *  Typography
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+.main-navigation a,
+.headlineFont {
+	clear: both;
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 8px;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+/**
+ *  General
+ */
+h1{
+	font-size:32px;
+  	line-height: 2;
+}
+
+/**
+ *  Wrapers
+ */
+
+.content-area {
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.content-area:before, .content-area:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+/**
+ *  Header
+ */
+header{  padding: 17px 0;}
+.says, .screen-reader-text {
+  display: none;}
+.widget_sow-slider li{max-height:400px;}
+h1.site-title,#searchbox{  text-align: center;}
+
+#searchbox input[type=search]{  
+	width: 80%;
+	height: 45px;  
+}
+#searchbox input[type=submit]{height: 45px;}
+
+
+ul.blog-links{text-align:center;}
+ul.blog-links li{
+	  background-color: tomato;
+  display: inline-block;
+  padding: 15px;
+}
+
+ul.blog-links li a{ padding: 10px 0;}
+
+
+/**
+ *  Latest news
+ */
+
+.latest-news{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+  	padding-bottom: 44px;
+}
+.latest-news > div{
+	width:31.3%;
+	background-color:#FDFDFD;
+}
+
+.latest-news img{
+	width: 100%;
+  height: auto;
+}
+
+.latest-news .post-text{
+  padding: 7px 19px;
+  
+}
+
+.latest-news .post-text h1{
+	font-size:23px;
+  	margin: 14px 0;
+}
+
+a.read-more{
+	color:#094f61;
+	font-weight: 700;
+}
+
+
+section#minicipalitynews{
+	background: url(img/rocket.jpg) no-repeat center top;
+    /*height: 500px;*/
+    background-size: cover;
+    background-color:#253265;
+}
+
+section > h1{ 
+	font-size:30px;
+	text-align:center;
+	padding:28px 0;
+	color:#f24337;
+}
